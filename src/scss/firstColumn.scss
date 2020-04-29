@@ -1,0 +1,56 @@
+.first-column {
+  padding: 10px;
+
+  .profile-pic {
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 100px;
+
+    img {
+      margin: 0 -58.885% 10% -90.885%;
+      width: 257.777%;
+      border-radius: 1000px;
+    }
+  }
+
+  .name {
+    font-size: 17px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .contact-info {
+    list-style-type: none;
+
+    li {
+      padding: 10px;
+    }
+    svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    span {
+      margin: 15px;
+      font-size: 20px;
+      color: white;
+    }
+  }
+
+  .skills-list {
+    color: white;
+    list-style: none;
+
+    li::before {
+      content: '\2022';
+      color: rgb(0, 210, 255);
+      font-size: 40px;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
