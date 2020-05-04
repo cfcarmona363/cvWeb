@@ -1,6 +1,6 @@
 .home-header,
 .home-footer {
-  background-color: rgb(0, 210, 255);
+  background-color: $blue;
   height: 40px;
 }
 
@@ -10,7 +10,4 @@
 
 .home-footer {
   margin-bottom: 5px !important;
-}
-
-.home-main {
 }
