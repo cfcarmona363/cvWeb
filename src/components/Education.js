@@ -4,7 +4,9 @@ import { Grid } from '@material-ui/core'
 const Education = () => {
   return (
     <Grid container className="experience-container" alignContent="flex-start" justify="flex-start">
-      <Grid className="title">EDUCATION</Grid>
+      <Grid item lg={12} xs={12} className="title">
+        EDUCATION
+      </Grid>
       <Grid item container lg={12} xs={12} className="education" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
           ADVANCED TECHNICAL DEGREE ON PROGRAMMING

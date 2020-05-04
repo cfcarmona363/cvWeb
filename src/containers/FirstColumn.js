@@ -58,16 +58,18 @@ const FirstColumn = () => {
       <Grid item lg={12} xs={12} className="title">
         FRONT-END DEVELOPER
       </Grid>
-      <Grid item lg={12} md={6} xs={12}>
-        <Grid className="name">CONTACT</Grid>
+      <Grid item container lg={12} md={6} xs={12}>
+        <Grid item lg={12} xs={12} className="name">
+          CONTACT
+        </Grid>
         <ul className="contact-info">
           {contactInfo.map(item => (
             <li key={item.key}>
-              <Grid container alignContent="center" justify="space-between">
+              <Grid item container alignContent="center" justify="space-around">
                 <Grid item container lg={1} xs={1}>
                   {item.icon}
                 </Grid>
-                <Grid item container lg={11} xs={10} alignContent="center">
+                <Grid item container lg={10} xs={10}>
                   {item.value}
                 </Grid>
               </Grid>
@@ -81,10 +83,10 @@ const FirstColumn = () => {
           {skils.map(item => (
             <li key={item.name}>
               <Grid container alignContent="center" justify="center" className="skill-item">
-                <Grid item lg={1} xs={3}>
+                <Grid item lg={1} xs={2}>
                   {item.icon}
                 </Grid>
-                <Grid item lg={10} xs={8}>
+                <Grid item lg={10} xs={9}>
                   {item.name}
                 </Grid>
               </Grid>
