@@ -4,7 +4,7 @@ import { Grid } from '@material-ui/core'
 const Accomplishments = () => {
   return (
     <Grid container className="accomplishment-container" alignContent="flex-start" justify="flex-start">
-      <h1>ACCOMPLISHMENTS</h1>
+      <Grid className="title">ACCOMPLISHMENTS</Grid>
       <Grid item container lg={12} xs={12} className="accomplishment" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
           INVITED SPEAKER AT FACEBOOK DEVELOPER CIRCLE, CÓRDOBA

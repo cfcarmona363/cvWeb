@@ -52,14 +52,14 @@ const FirstColumn = () => {
         </div>
       </Grid>
       <Grid item lg={12} xs={12} className="name">
-        <h1>Francisco Carmona</h1>
+        FRANCISCO CARMONA
       </Grid>
 
       <Grid item lg={12} xs={12} className="title">
-        <h2>{'FRONT-END DEVELOPER'}</h2>
+        FRONT-END DEVELOPER
       </Grid>
-      <Grid item lg={12} xs={12}>
-        <h1>CONTACT</h1>
+      <Grid item lg={12} md={6} xs={12}>
+        <Grid className="name">CONTACT</Grid>
         <ul className="contact-info">
           {contactInfo.map(item => (
             <li key={item.key}>
@@ -75,8 +75,8 @@ const FirstColumn = () => {
           ))}
         </ul>
       </Grid>
-      <Grid item lg={12} xs={12}>
-        <h1>SKILS</h1>
+      <Grid item lg={12} md={6} xs={12}>
+        <Grid className="name">SKILLS</Grid>
         <ul className="skills-list">
           {skils.map(item => (
             <li key={item.name}>
