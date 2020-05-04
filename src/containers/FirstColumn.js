@@ -10,15 +10,15 @@ import { AiOutlineConsoleSql } from 'react-icons/ai'
 
 const FirstColumn = () => {
   const contactInfo = [
-    { icon: <Phone />, value: <span>'3512693767'</span>, key: 'phone' },
+    { icon: <Phone />, value: <span>3512693767</span>, key: 'phone' },
     {
       icon: <Mail />,
-      value: <span>'cfcarmona363@gmail.com'</span>,
+      value: <span>cfcarmona363@gmail.com</span>,
       key: 'mail'
     },
     {
       icon: <LocationOn />,
-      value: <span>'Córdoba Capital - Argentina'</span>,
+      value: <span>Córdoba Capital - Argentina</span>,
       key: 'location'
     },
     {
@@ -45,7 +45,7 @@ const FirstColumn = () => {
   ]
 
   return (
-    <Grid container item className="first-column">
+    <Grid container item className="first-column" alignContent="flex-start">
       <Grid item lg={12} xs={12}>
         <div className="profile-pic">
           <img src={profileImg} alt="profile-pic" />
