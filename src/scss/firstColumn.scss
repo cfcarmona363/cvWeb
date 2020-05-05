@@ -28,9 +28,11 @@
     color: white;
   }
   .contact-info {
-    list-style-type: none;
     padding-inline-start: 0px;
 
+    ul {
+      list-style-type: none;
+    }
     li {
       padding: 10px;
     }
@@ -69,6 +71,29 @@
           transform: rotatey(360deg);
         }
       }
+    }
+  }
+
+  .download {
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: $blue;
+
+    ul {
+      list-style-type: none;
+    }
+
+    a {
+      margin: 0 10px 5px 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+
+    img {
+      width: 30px;
+      margin: 15px 10px 0 0;
     }
   }
 }

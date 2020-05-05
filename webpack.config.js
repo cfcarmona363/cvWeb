@@ -37,7 +37,7 @@ module.exports = function (_env, argv) {
           use: ['style-loader', 'css-loader', 'sass-loader']
         },
         {
-          test: /\.(png|jpg|gif|jpeg)$/i,
+          test: /\.(png|jpg|gif|jpeg|pdf)$/i,
           use: {
             loader: 'url-loader',
             options: {

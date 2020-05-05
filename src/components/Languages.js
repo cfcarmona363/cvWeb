@@ -11,7 +11,7 @@ const Accomplishments = () => {
         <Grid item lg={12} xs={12} className="experience-role">
           SPANISH - NATIVE
         </Grid>
-        <Grid item lg={12} xs={12} className="experience-company">
+        <Grid item lg={12} xs={12} className="experience-role">
           ENGLISH - ADVANCED LEVEL
         </Grid>
       </Grid>
