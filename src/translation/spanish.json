@@ -16,8 +16,8 @@
   "experience": {
     "eureka": {
       "position": "FRONT-END REACT DEVELOPER",
-      "company": "EUREKA LABS - 06/2018",
-      "desc": "Ingresé a la empresa como junior developer y luego de un año comencé asumir más responsabilidades, como capacitar nuevos developers y hacerme cargo del área de front-end."
+      "company": "EUREKA LABS 06/2018 - Present",
+      "desc": "Ingresé a la empresa como junior developer y luego de un año comencé a asumir más responsabilidades, como capacitar nuevos developers y hacerme cargo del área de front-end."
     },
     "bizit": {
       "position": "BACK-END JAVA DEVELOPER",
@@ -44,27 +44,29 @@
     "tecnicatura": {
       "title": "TECNICATURA SUPERIOR EN PROGRAMACIÓN",
       "institution": "UNIVERSIDAD TECNOLÓGICA NACIONAL",
-      "year": "2016 - 2017 FINALIZADO"
+      "year": "2016 - 2017 (FINALIZADO)"
     },
     "dba": {
       "title": "ADMINISTRACIÓN DE BASE DE DATOS (MÓDULOS 1 Y 2)",
       "institution": "ACADEMIA CISCO, UNIVERSIDAD TECNOLÓGICA NACIONAL",
-      "year": "2014 - 2015 FINALIZADO"
+      "year": "2014 - 2015 (FINALIZADO)"
     },
     "java": {
       "title": "PROGRAMACIÓN JAVA",
       "institution": "ACADEMIA CISCO, UNIVERSIDAD TECNOLÓGICA NACIONAL",
-      "year": "2014 - 2014 FINALIZADO"
+      "year": "2014 - 2014 (FINALIZADO)"
     },
     "engineering": {
       "title": "INGENIERÍA EN COMPUTACIÓN",
       "institution": "UNIVERSIDAD NACIONÁL DE CÓRDOBA",
-      "year": "2008 - 2012 NO FINALIZADO"
+      "year": "2008 - 2012 (NO FINALIZADO)"
     }
   },
   "languages": {
-    "spanish": "ESPAÑOL - NATIVO",
-    "english": "INGLÉS - NIVEL AVANZADO"
+    "spanish": "ESPAÑOL  ",
+    "spanishLevel": "NATIVO",
+    "english": "INGLÉS  ",
+    "englishLevel": "NIVEL AVANZADO"
   },
   "accomplishments": {
     "facebook": {

@@ -9,11 +9,21 @@ const Accomplishments = () => {
         {t('titles.languages')}
       </Grid>
       <Grid item container lg={12} xs={12} className="languaje" alignContent="flex-start" justify="flex-start">
-        <Grid item lg={12} xs={12} className="experience-role">
-          {t('languages.spanish')}
+        <Grid item container lg={12} xs={12} className="experience-role" direction="row">
+          <Grid item container lg={2} md={2} xs={6}>
+            {t('languages.spanish')}
+          </Grid>
+          <Grid item container lg={3} xs={3} className="language-level" alignContent="flex-end">
+            {t('languages.spanishLevel')}
+          </Grid>
         </Grid>
-        <Grid item lg={12} xs={12} className="experience-role">
-          {t('languages.english')}
+        <Grid item container lg={12} xs={12} className="experience-role" direction="row">
+          <Grid item container lg={2} md={2} xs={6}>
+            {t('languages.english')}
+          </Grid>
+          <Grid item container lg={3} xs={3} className="language-level" alignContent="flex-end">
+            {t('languages.englishLevel')}
+          </Grid>
         </Grid>
       </Grid>
       <br />

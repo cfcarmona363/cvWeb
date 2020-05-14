@@ -16,7 +16,7 @@
   "experience": {
     "eureka": {
       "position": "FRONT-END REACT DEVELOPER",
-      "company": "EUREKA LABS - 06/2018",
+      "company": "EUREKA LABS 06/2018 - Actialidad",
       "desc": "I joined the company as a junior developer, and after a year I started taking more responsibilities, such as training new developers and managing all the most important front-end matters."
     },
     "bizit": {
@@ -44,27 +44,29 @@
     "tecnicatura": {
       "title": "ADVANCED TECHNICAL DEGREE ON PROGRAMMING",
       "institution": "NATIONAL TECHNOLOGICAL UNIVERSITY",
-      "year": "2016 - 2017 COMPLETED"
+      "year": "2016 - 2017 (COMPLETED)"
     },
     "dba": {
       "title": "DATABASE ADMINISTRATION (MODULES 1 AND 2)",
       "institution": "CISCO ACADEMY, NATIONAL TECHNOLOGICAL UNIVERSITY",
-      "year": "2014 - 2015 COMPLETED"
+      "year": "2014 - 2015 (COMPLETED)"
     },
     "java": {
       "title": "JAVA PROGRAMMING",
       "institution": "CISCO ACADEMY, NATIONAL TECHNOLOGICAL UNIVERSITY",
-      "year": "2014 - 2014 COMPLETED"
+      "year": "2014 - 2014 (COMPLETED)"
     },
     "engineering": {
       "title": "COMPUTER SCIENCE ENGINEERING",
       "institution": "NATIONAL UNIVERSITY OF CÓRDOBA",
-      "year": "2008 - 2012 NOT COMPLETED"
+      "year": "2008 - 2012 (NOT COMPLETED)"
     }
   },
   "languages": {
-    "spanish": "SPANISH - NATIVE",
-    "english": "ENGLISH - ADVANCED LEVEL"
+    "spanish": "SPANISH  ",
+    "spanishLevel": "NATIVE",
+    "english": "ENGLISH  ",
+    "englishLevel": "ADVANCED LEVE"
   },
   "accomplishments": {
     "facebook": {

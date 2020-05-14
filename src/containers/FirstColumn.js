@@ -1,11 +1,7 @@
 import React from 'react'
-import { Grid } from '@material-ui/core'
+import { Grid, Hidden } from '@material-ui/core'
 import { Phone, Mail, LocationOn, GitHub } from '@material-ui/icons'
 import profileImg from '../assets/profile-img.jpg'
-import spainFlag from '../assets/spainFlag.png'
-import ukFlag from '../assets/ukFlag.png'
-import cvSpanish from '../assets/cvSpanish.pdf'
-import cvEnglish from '../assets/cvEnglish.pdf'
 import { RiReactjsLine, RiFlutterLine } from 'react-icons/ri'
 import { IoLogoJavascript, IoLogoNodejs, IoLogoAngular } from 'react-icons/io'
 import { GiDart } from 'react-icons/gi'
@@ -13,6 +9,7 @@ import { DiJava, DiMongodb } from 'react-icons/di'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
 import SpinningIcon from '../components/styled-components/spinningIcon'
 import t from '../translation/translate'
+import DownloadCv from '../components/DownloadCv'
 
 const FirstColumn = () => {
   const contactInfo = [
@@ -102,25 +99,9 @@ const FirstColumn = () => {
           ))}
         </ul>
       </Grid>
-      <Grid item lg={12} md={6} xs={12} className="download">
-        <Grid>{t('titles.download')}</Grid>
-        <Grid>
-          <ul>
-            <li>
-              <img src={spainFlag} alt="spanish"></img>
-              <a href={cvSpanish} target="_blank" rel="noopener noreferrer">
-                {t('langSelect.spanish')}
-              </a>
-            </li>
-            <li>
-              <img src={ukFlag} alt="english"></img>
-              <a href={cvEnglish} target="_blank" rel="noopener noreferrer">
-                {t('langSelect.english')}
-              </a>
-            </li>
-          </ul>
-        </Grid>
-      </Grid>
+      <Hidden mdDown>
+        <DownloadCv />
+      </Hidden>
     </Grid>
   )
 }

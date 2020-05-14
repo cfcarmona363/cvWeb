@@ -59,27 +59,26 @@
       margin-bottom: 10px;
     }
   }
+}
+.download {
+  margin: 20px 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: $blue;
 
-  .download {
-    margin: 20px 0;
-    font-size: 25px;
-    font-weight: 600;
-    color: $blue;
+  ul {
+    list-style-type: none;
+  }
 
-    ul {
-      list-style-type: none;
-    }
+  a {
+    margin: 0 10px 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
 
-    a {
-      margin: 0 10px 5px 10px;
-      text-decoration: none;
-      color: white;
-      font-size: 20px;
-    }
-
-    img {
-      width: 30px;
-      margin: 15px 10px 0 0;
-    }
+  img {
+    width: 30px;
+    margin: 15px 10px 0 0;
   }
 }

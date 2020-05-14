@@ -15,8 +15,8 @@ const Experience = () => {
         <Grid item lg={12} xs={12} className="experience-company">
           {t('experience.eureka.company')}
         </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>{t('experience.eureka.desc')}</p>
+        <Grid item lg={12} xs={12} className="experience-desc">
+          {t('experience.eureka.desc')}
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
@@ -26,8 +26,8 @@ const Experience = () => {
         <Grid item lg={12} xs={12} className="experience-company">
           {t('experience.bizit.company')}
         </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>{t('experience.bizit.desc')}</p>
+        <Grid item lg={12} xs={12} className="experience-desc">
+          {t('experience.bizit.desc')}
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
@@ -37,8 +37,8 @@ const Experience = () => {
         <Grid item lg={12} xs={12} className="experience-company">
           {t('experience.cohen2.company')}
         </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>{t('experience.cohen2.desc')}</p>
+        <Grid item lg={12} xs={12} className="experience-desc">
+          {t('experience.cohen2.desc')}
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
@@ -48,8 +48,8 @@ const Experience = () => {
         <Grid item lg={12} xs={12} className="experience-company">
           {t('experience.globant.company')}
         </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>{t('experience.globant.desc')}</p>
+        <Grid item lg={12} xs={12} className="experience-desc">
+          {t('experience.globant.desc')}
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
@@ -59,8 +59,8 @@ const Experience = () => {
         <Grid item lg={12} xs={12} className="experience-company">
           {t('experience.cohen1.company')}
         </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>{t('experience.cohen1.desc')}</p>
+        <Grid item lg={12} xs={12} className="experience-desc">
+          {t('experience.cohen1.desc')}
         </Grid>
       </Grid>
     </Grid>

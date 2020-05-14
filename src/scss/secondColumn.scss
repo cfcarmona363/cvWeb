@@ -6,28 +6,30 @@
   .education,
   .languaje,
   .accomplishment {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     .experience-role {
       font-size: 24px;
       padding-left: 20px;
+      padding-top: 10px;
+
+      .language-level {
+        color: white;
+        font-size: 20px;
+      }
     }
 
     .experience-company {
       font-weight: 100;
-      font-size: 22px;
+      font-size: 20px;
       padding-left: 20px;
     }
 
+    .experience-desc,
     .completion-date {
       padding-left: 20px;
-      color: white;
-      font-weight: 100;
-    }
-
-    p {
-      padding-left: 20px;
-      font-size: 22px;
+      padding-top: 10px;
+      font-size: 19px;
       color: white;
     }
   }
