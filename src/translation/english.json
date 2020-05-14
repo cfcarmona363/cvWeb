@@ -1,0 +1,75 @@
+{
+  "titles": {
+    "contact": "CONTACT",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "experience": "EXPERIENCE",
+    "languages": "LANGUAGES",
+    "accomplishments": "ACCOMPLISHMENTS",
+    "download": "DOWNLOAD CV"
+  },
+  "langSelect": {
+    "title": "LANGUAGE",
+    "spanish": "SPANISH",
+    "english": "ENGLISH"
+  },
+  "experience": {
+    "eureka": {
+      "position": "FRONT-END REACT DEVELOPER",
+      "company": "EUREKA LABS - 06/2018",
+      "desc": "I joined the company as a junior developer, and after a year I started taking more responsibilities, such as training new developers and managing all the most important front-end matters."
+    },
+    "bizit": {
+      "position": "BACK-END JAVA DEVELOPER",
+      "company": "BIZIT GLOBAL 10/2017 - 06/2018",
+      "desc": "I worked as a back-end developer with Java and PL-SQL."
+    },
+    "cohen2": {
+      "position": "PL-SQL DEVELOPER",
+      "company": "COHEN SISTEMAS 09/2016 - 10/2017",
+      "desc": "I worked with PL-SQL and Oracle Forms for a big telecommunications company."
+    },
+    "globant": {
+      "position": "AUTOMATION DEVELOPER",
+      "company": "GLOBANT 05/2016 - 09/2016",
+      "desc": "I worked as an automation developer using Selenium and Python."
+    },
+    "cohen1": {
+      "position": "QA ANALYST AND AUTOMATION DEVELOPER",
+      "company": "COHEN SISTEMAS 11/2014 - 05/2016",
+      "desc": "I worked as a QA analyst for a big telecommunications company, and also developing automation tests."
+    }
+  },
+  "education": {
+    "tecnicatura": {
+      "title": "ADVANCED TECHNICAL DEGREE ON PROGRAMMING",
+      "institution": "NATIONAL TECHNOLOGICAL UNIVERSITY",
+      "year": "2016 - 2017 COMPLETED"
+    },
+    "dba": {
+      "title": "DATABASE ADMINISTRATION (MODULES 1 AND 2)",
+      "institution": "CISCO ACADEMY, NATIONAL TECHNOLOGICAL UNIVERSITY",
+      "year": "2014 - 2015 COMPLETED"
+    },
+    "java": {
+      "title": "JAVA PROGRAMMING",
+      "institution": "CISCO ACADEMY, NATIONAL TECHNOLOGICAL UNIVERSITY",
+      "year": "2014 - 2014 COMPLETED"
+    },
+    "engineering": {
+      "title": "COMPUTER SCIENCE ENGINEERING",
+      "institution": "NATIONAL UNIVERSITY OF CÓRDOBA",
+      "year": "2008 - 2012 NOT COMPLETED"
+    }
+  },
+  "languages": {
+    "spanish": "SPANISH - NATIVE",
+    "english": "ENGLISH - ADVANCED LEVEL"
+  },
+  "accomplishments": {
+    "facebook": {
+      "title": "INVITED SPEAKER AT FACEBOOK DEVELOPER CIRCLE, CÓRDOBA",
+      "desc": "I GAVE A PRESENTATION ON REACT HOOKS AND HOW TO IMPLEMENT THEM."
+    }
+  }
+}

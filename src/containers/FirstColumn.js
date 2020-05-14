@@ -11,6 +11,8 @@ import { IoLogoJavascript, IoLogoNodejs, IoLogoAngular } from 'react-icons/io'
 import { GiDart } from 'react-icons/gi'
 import { DiJava, DiMongodb } from 'react-icons/di'
 import { AiOutlineConsoleSql } from 'react-icons/ai'
+import SpinningIcon from '../components/styled-components/spinningIcon'
+import t from '../translation/translate'
 
 const FirstColumn = () => {
   const contactInfo = [
@@ -64,7 +66,7 @@ const FirstColumn = () => {
       </Grid>
       <Grid item container lg={12} md={6} xs={12}>
         <Grid item lg={12} xs={12} className="name">
-          CONTACT
+          {t('titles.contact')}
         </Grid>
         <Grid item lg={12} xs={12} className="contact-info">
           <ul>
@@ -84,13 +86,13 @@ const FirstColumn = () => {
         </Grid>
       </Grid>
       <Grid item lg={12} md={6} xs={12}>
-        <Grid className="name">SKILLS</Grid>
+        <Grid className="name">{t('titles.skills')}</Grid>
         <ul className="skills-list">
-          {skils.map(item => (
+          {skils.map((item, index) => (
             <li key={item.name}>
               <Grid container alignContent="center" justify="center" className="skill-item">
                 <Grid item lg={1} xs={2}>
-                  {item.icon}
+                  <SpinningIcon time={index / 30 + 3}>{item.icon}</SpinningIcon>
                 </Grid>
                 <Grid item lg={10} xs={9}>
                   {item.name}
@@ -101,19 +103,19 @@ const FirstColumn = () => {
         </ul>
       </Grid>
       <Grid item lg={12} md={6} xs={12} className="download">
-        <Grid>DOWNLOAD CV</Grid>
+        <Grid>{t('titles.download')}</Grid>
         <Grid>
           <ul>
             <li>
               <img src={spainFlag} alt="spanish"></img>
-              <a href={cvSpanish} download>
-                Spanish
+              <a href={cvSpanish} target="_blank" rel="noopener noreferrer">
+                {t('langSelect.spanish')}
               </a>
             </li>
             <li>
               <img src={ukFlag} alt="english"></img>
-              <a href={cvEnglish} download>
-                English
+              <a href={cvEnglish} target="_blank" rel="noopener noreferrer">
+                {t('langSelect.english')}
               </a>
             </li>
           </ul>

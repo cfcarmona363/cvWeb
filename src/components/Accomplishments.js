@@ -1,18 +1,19 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
+import t from '../translation/translate'
 
 const Accomplishments = () => {
   return (
     <Grid container className="accomplishment-container" alignContent="flex-start" justify="flex-start">
       <Grid item lg={12} xs={12} className="title">
-        ACCOMPLISHMENTS
+        {t('titles.accomplishments')}
       </Grid>
       <Grid item container lg={12} xs={12} className="accomplishment" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
-          INVITED SPEAKER AT FACEBOOK DEVELOPER CIRCLE, CÓRDOBA
+          {t('accomplishments.facebook.title')}
         </Grid>
         <Grid item lg={12} xs={12} className="completion-date">
-          I GAVE A PRESENTATION ON REACT HOOKS AND HOW TO IMPLEMENT THEM.
+          {t('accomplishments.facebook.desc')}
         </Grid>
       </Grid>
     </Grid>

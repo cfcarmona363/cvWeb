@@ -1,68 +1,66 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
+import t from '../translation/translate'
 
 const Experience = () => {
   return (
     <Grid container className="experience-container" alignContent="flex-start" justify="flex-start">
       <Grid item container lg={12} xs={12} className="title">
-        EXPERIENCE
+        {t('titles.experience')}
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
-          FRONT-END REACT DEVELOPER
+          {t('experience.eureka.position')}
         </Grid>
         <Grid item lg={12} xs={12} className="experience-company">
-          EUREKA LABS - 06/2018
+          {t('experience.eureka.company')}
         </Grid>
         <Grid item lg={12} xs={12}>
-          <p>
-            I joined the company as a junior developer, and after a year I started taking more responsibilities, such as
-            training new developers and managing all the most important front-end matters.
-          </p>
-        </Grid>
-      </Grid>
-      <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
-        <Grid item lg={12} xs={12} className="experience-role">
-          BACK-END JAVA DEVELOPER
-        </Grid>
-        <Grid item lg={12} xs={12} className="experience-company">
-          BIZIT GLOBAL 10/2017 - 06/2018
-        </Grid>
-        <Grid item lg={12} xs={12}>
-          <p>I worked as a back-end developer with Java and PL-SQL.</p>
+          <p>{t('experience.eureka.desc')}</p>
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
-          PL-SQL DEVELOPER
+          {t('experience.bizit.position')}
         </Grid>
         <Grid item lg={12} xs={12} className="experience-company">
-          COHEN SISTEMAS 09/2016 - 10/2017
+          {t('experience.bizit.company')}
         </Grid>
         <Grid item lg={12} xs={12}>
-          <p>I worked with PL-SQL and Oracle Forms for a big telecommunications company.</p>
+          <p>{t('experience.bizit.desc')}</p>
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
-          AUTOMATION DEVELOPER
+          {t('experience.cohen2.position')}
         </Grid>
         <Grid item lg={12} xs={12} className="experience-company">
-          GLOBANT 05/2016 - 09/2016
+          {t('experience.cohen2.company')}
         </Grid>
         <Grid item lg={12} xs={12}>
-          <p>I worked as an automation developer using Selenium and Python.</p>
+          <p>{t('experience.cohen2.desc')}</p>
         </Grid>
       </Grid>
       <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
         <Grid item lg={12} xs={12} className="experience-role">
-          QA ANALYST AND AUTOMATION DEVELOPER
+          {t('experience.globant.position')}
         </Grid>
         <Grid item lg={12} xs={12} className="experience-company">
-          COHEN SISTEMAS 11/2014 - 05/2016
+          {t('experience.globant.company')}
         </Grid>
         <Grid item lg={12} xs={12}>
-          <p>I worked as a QA analyst for a big telecommunications company, and also developing automation tests.</p>
+          <p>{t('experience.globant.desc')}</p>
+        </Grid>
+      </Grid>
+      <Grid item container lg={12} xs={12} className="experience" alignContent="flex-start" justify="flex-start">
+        <Grid item lg={12} xs={12} className="experience-role">
+          {t('experience.cohen1.position')}
+        </Grid>
+        <Grid item lg={12} xs={12} className="experience-company">
+          {t('experience.cohen1.company')}
+        </Grid>
+        <Grid item lg={12} xs={12}>
+          <p>{t('experience.cohen1.desc')}</p>
         </Grid>
       </Grid>
     </Grid>

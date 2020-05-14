@@ -1,0 +1,75 @@
+{
+  "titles": {
+    "contact": "CONTACTO",
+    "skills": "TECNOLOGÍAS",
+    "education": "EDUCACIÓN",
+    "experience": "EXPERIENCIA",
+    "languages": "IDIOMAS",
+    "accomplishments": "LOGROS",
+    "download": "DESCARGAR CV"
+  },
+  "langSelect": {
+    "title": "IDIOMA",
+    "spanish": "ESPAÑOL",
+    "english": "INGLÉS"
+  },
+  "experience": {
+    "eureka": {
+      "position": "FRONT-END REACT DEVELOPER",
+      "company": "EUREKA LABS - 06/2018",
+      "desc": "Ingresé a la empresa como junior developer y luego de un año comencé asumir más responsabilidades, como capacitar nuevos developers y hacerme cargo del área de front-end."
+    },
+    "bizit": {
+      "position": "BACK-END JAVA DEVELOPER",
+      "company": "BIZIT GLOBAL 10/2017 - 06/2018",
+      "desc": "Trabajé como back-end developer con Java y PL-SQL."
+    },
+    "cohen2": {
+      "position": "PL-SQL DEVELOPER",
+      "company": "COHEN SISTEMAS 09/2016 - 10/2017",
+      "desc": "Trabajé con PL-SQL y Oracle Forms para una importante empresa de telecomunicaciones."
+    },
+    "globant": {
+      "position": "AUTOMATION DEVELOPER",
+      "company": "GLOBANT 05/2016 - 09/2016",
+      "desc": "Trabajé como automation developer usando Selenium y Python."
+    },
+    "cohen1": {
+      "position": "QA ANALYST AND AUTOMATION DEVELOPER",
+      "company": "COHEN SISTEMAS 11/2014 - 05/2016",
+      "desc": "Trabajé como QA analyst y automation developer para una importante empresa de telecomunicaciones."
+    }
+  },
+  "education": {
+    "tecnicatura": {
+      "title": "TECNICATURA SUPERIOR EN PROGRAMACIÓN",
+      "institution": "UNIVERSIDAD TECNOLÓGICA NACIONAL",
+      "year": "2016 - 2017 FINALIZADO"
+    },
+    "dba": {
+      "title": "ADMINISTRACIÓN DE BASE DE DATOS (MÓDULOS 1 Y 2)",
+      "institution": "ACADEMIA CISCO, UNIVERSIDAD TECNOLÓGICA NACIONAL",
+      "year": "2014 - 2015 FINALIZADO"
+    },
+    "java": {
+      "title": "PROGRAMACIÓN JAVA",
+      "institution": "ACADEMIA CISCO, UNIVERSIDAD TECNOLÓGICA NACIONAL",
+      "year": "2014 - 2014 FINALIZADO"
+    },
+    "engineering": {
+      "title": "INGENIERÍA EN COMPUTACIÓN",
+      "institution": "UNIVERSIDAD NACIONÁL DE CÓRDOBA",
+      "year": "2008 - 2012 NO FINALIZADO"
+    }
+  },
+  "languages": {
+    "spanish": "ESPAÑOL - NATIVO",
+    "english": "INGLÉS - NIVEL AVANZADO"
+  },
+  "accomplishments": {
+    "facebook": {
+      "title": "DISERTANTE INVITADO EN FACEBOOK DEVELOPER CIRCLE, CÓRDOBA",
+      "desc": "PRESENTACIÓN SOBRE REACT HOOKS Y CÓMO IMPLEMENTARLOS"
+    }
+  }
+}
