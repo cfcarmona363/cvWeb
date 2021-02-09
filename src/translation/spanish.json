@@ -14,9 +14,14 @@
     "english": "INGLÉS"
   },
   "experience": {
+    "cor": {
+      "position": "FRONT-END LIDER",
+      "company": "COR 08/2020 - Actualidad",
+      "desc": "Me desempeño como lider del area de front-end de la empresa encargado de asegurar la calidad e innovación del producto desde el front-end, como también del crecimiento profesional de los integrantes del equipo."
+    },
     "eureka": {
       "position": "FRONT-END REACT DEVELOPER",
-      "company": "EUREKA LABS 06/2018 - Present",
+      "company": "EUREKA LABS 06/2018 - 08/2020",
       "desc": "Ingresé a la empresa como junior developer y luego de un año comencé a asumir más responsabilidades, como capacitar nuevos developers y hacerme cargo del área de front-end."
     },
     "bizit": {

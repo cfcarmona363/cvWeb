@@ -14,9 +14,14 @@
     "english": "ENGLISH"
   },
   "experience": {
+    "cor": {
+      "position": "FRONT-END LIDER",
+      "company": "COR 08/2020 - Present",
+      "desc": "I work as a front-end team leader in charge of quality assurance and innovation of the product from the front-end perspective, as well as professional development of team members."
+    },
     "eureka": {
       "position": "FRONT-END REACT DEVELOPER",
-      "company": "EUREKA LABS 06/2018 - Actialidad",
+      "company": "EUREKA LABS 06/2018 - 08/2020",
       "desc": "I joined the company as a junior developer, and after a year I started taking more responsibilities, such as training new developers and managing all the most important front-end matters."
     },
     "bizit": {
